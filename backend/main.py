@@ -56,7 +56,7 @@ app.add_api_route("/multi_detect", multi_detect_food, methods=["POST"])
 
 # classifier = pipeline("image-classification", model="nateraw/food")
 
-# llm=ChatGroq(model="llama-3.3-70b-versatile",api_key='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')
+# llm=ChatGroq(model="llama-3.3-70b-versatile",api_key=os.getenviron('api'))
 
 
 
