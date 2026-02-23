@@ -39,7 +39,7 @@ A modern, dark-themed architecture diagram of a Food Recipe Generator applicatio
 
 
 ## 📁 Project structure
-
+```bash
 Food-Recipe-Generator/
 │
 ├── 📂 backend/                         # FastAPI backend services
@@ -61,7 +61,7 @@ Food-Recipe-Generator/
 ├── 🔐 .env                             # Environment variables (API keys, configs)
 ├── 📦 requirements.txt                 # Project dependencies
 └── ▶️ run_app.py                       # Script to launch the application
-
+```
 ## ⚙️ Setup
 
 ### 1. Clone the repository
